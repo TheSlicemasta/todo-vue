@@ -1,0 +1,27 @@
+@include media-breakpoint-down(sm) {
+	/* body:after {
+		content: 'SMALL';
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		padding: 15px 30px;
+		font-size: 20px;
+		color: #fff;
+		background: orange;
+	} */
+
+	body {
+		background: #fff;
+	}
+
+	.btn {
+		min-width: 220px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.custom-control {
+		margin: 10px 0 20px 0;
+	}
+
+}

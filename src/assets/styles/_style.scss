@@ -1,0 +1,71 @@
+html, 
+body {
+	height:100%;
+	font-family: $ff;
+}
+
+body {
+	overflow-y: scroll;
+}
+
+.form-group:last-child {
+	margin-bottom: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	&.form-control {
+		height: 40px;
+		padding: 20px;
+		border: 1px solid #E0E0E0;
+		border-radius: 3px;
+		background-color: #fff;
+		font-family: $ff;
+		color: $color-input;							
+		font-size: 16px;
+		line-height: 18px;
+	}
+	&::placeholder {
+		opacity: 1;
+		color: $body-color;	
+	}
+
+	&.is-invalid {
+    	border-color: #dc3545;
+	}
+}
+
+.btn {
+	font-size: 16px;
+	min-width: 120px;
+}
+
+.col-form-label {
+	font-size: 16px;
+}
+
+.custom-control {
+	display: inline-block;
+	margin: .3rem 0 0 0;
+	font-size: 18px;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+	width: 1.125rem;
+	height: 1.125rem;
+	border-radius: 0;
+	box-shadow: none !important;
+	top: .1rem;
+}
+
+.custom-control-label::before {
+	background: #fff;
+	border: 2px solid #E0E0E0;
+	border-radius: 1px;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+	border: none !important;
+}
