@@ -1,4 +1,4 @@
-# TODO (VUE 2, Bootstrap 4, Webpack CLI 3, BEM)
+# TODO (VUE 2, Vue CLI 3, Bootstrap 4, BEM)
 
 ## Описание (ТЗ)
 
